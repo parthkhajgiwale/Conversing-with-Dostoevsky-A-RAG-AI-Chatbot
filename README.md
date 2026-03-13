@@ -24,20 +24,6 @@ This chatbot allows users to ask philosophical questions and receive answers **w
 # Architecture
 
 The project follows a **Retrieval-Augmented Generation (RAG) pipeline**:
-User Question
-↓
-Retriever (ChromaDB)
-↓
-Relevant Dostoevsky passages
-↓
-Prompt conditioning
-↓
-Language Model
-↓
-Philosophical response
-
-
-### Pipeline Steps
 
 1. **Document Loading**
    - Dostoevsky novels are loaded from PDF files.
@@ -81,4 +67,55 @@ Clone the repository:
 git clone https://github.com/yourusername/dostoevsky-chatbot.git
 cd dostoevsky-chatbot
 ```
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+# Running the Project
+
+Open the notebook: Conversing_with_Dostoevsky_A_Retrieval_Augmented_Generative_AI_Chatbot.ipynb
+
+
+Run all cells to:
+
+- Load Dostoevsky texts  
+- Build embeddings  
+- Store vectors in **ChromaDB**  
+- Start the chatbot  
+
+---
+
+# Example Questions
+
+Try asking the chatbot:
+
+- Why do humans suffer?  
+- Is conscience stronger than punishment?  
+- Can guilt lead to redemption?  
+- Are humans naturally good or evil?  
+- Is freedom a blessing or a burden?  
+
+---
+
+# Example Output
+
+> "My dear reader, suffering is perhaps the most terrible privilege granted to man.  
+> The animal suffers and forgets, yet man remembers, questions, rebels against the injustice of existence itself..."
+
+---
+
+# Project Goal
+
+The goal of this project is to demonstrate how **Retrieval-Augmented Generation (RAG)** can be used to simulate literary voices and philosophical dialogue by combining modern AI techniques with classic literature.
+
+---
+
+# Future Improvements
+
+- Improve literary style conditioning  
+- Add support for multiple philosophers  
+- Evaluate responses using semantic similarity  
+- Build a web interface for interaction  
+
