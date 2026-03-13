@@ -76,7 +76,6 @@ Run all cells to:
 - Store vectors in **ChromaDB**  
 - Start the chatbot  
 
----
 
 # Example Questions
 
@@ -88,20 +87,15 @@ Try asking the chatbot:
 - Are humans naturally good or evil?  
 - Is freedom a blessing or a burden?  
 
----
-
 # Example Output
 
 > "My dear reader, suffering is perhaps the most terrible privilege granted to man.  
 > The animal suffers and forgets, yet man remembers, questions, rebels against the injustice of existence itself..."
 
----
 
 # Project Goal
 
 The goal of this project is to demonstrate how **Retrieval-Augmented Generation (RAG)** can be used to simulate literary voices and philosophical dialogue by combining modern AI techniques with classic literature.
-
----
 
 # Future Improvements
 
