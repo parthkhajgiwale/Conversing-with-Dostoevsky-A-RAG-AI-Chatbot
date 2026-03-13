@@ -42,8 +42,6 @@ The project follows a **Retrieval-Augmented Generation (RAG) pipeline**:
 7. **LLM Generation**
    - The model produces a philosophical reflection.
 
----
-
 # Technologies Used
 
 - **Python**
