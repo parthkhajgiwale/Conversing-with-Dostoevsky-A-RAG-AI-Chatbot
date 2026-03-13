@@ -5,8 +5,6 @@ This project builds a **Generative AI chatbot that responds in the philosophical
 
 The system uses **Retrieval-Augmented Generation (RAG)** to retrieve passages from Dostoevsky’s works and guide a language model to generate reflective responses inspired by his literary style.
 
----
-
 # Overview
 
 Fyodor Dostoevsky explored deep themes such as:
@@ -18,8 +16,6 @@ Fyodor Dostoevsky explored deep themes such as:
 - the complexity of the human soul
 
 This chatbot allows users to ask philosophical questions and receive answers **written in a style resembling Dostoevsky's narrative voice**.
-
----
 
 # Architecture
 
@@ -57,8 +53,6 @@ The project follows a **Retrieval-Augmented Generation (RAG) pipeline**:
 - **HuggingFace Transformers**
 - **Jupyter Notebook**
 
----
-
 # Installation
 
 Clone the repository:
@@ -76,7 +70,6 @@ pip install -r requirements.txt
 # Running the Project
 
 Open the notebook: Conversing_with_Dostoevsky_A_Retrieval_Augmented_Generative_AI_Chatbot.ipynb
-
 
 Run all cells to:
 
